@@ -11,21 +11,35 @@
             margin: 0;
         }
         body {
-            background-color: #FFE101;            
+            background-color: #FFE101;           
         }
-        div {
+        #items {
             /* comment */
             background-color: #0179BE;
             border: 1px solid #00598c;
             width: auto;           
             /* margin: top right bottom left */
             margin: 50px 100px 0px 100px;
+            padding: 15px 0;
+        }
+        .item {
+            background-color: #BD003F;
+            margin: 2px 15px; 
+            color: #f56f56
+        }
+        #selected-item {
+            background-color: blueviolet;
         }
     </style>
 </head>
 <body>
-   <div>
-        Hello world !
+   <div id="items">
+        <div class="item">Esse irure incididunt magna ex non dolore aute ut.</div>
+        <div class="item">Nulla excepteur amet laboris cillum pariatur in.</div>
+        <div class="item">Est sunt ipsum reprehenderit nostrud laborum magna ad consectetur enim laborum occaecat ullamco excepteur do.</div>
+        <div class="item" id="selected-item">Magna irure ea aute Lorem ad dolore dolore qui commodo occaecat aute amet.</div>
+        <div class="item">Nisi sit elit labore ex incididunt in ea consectetur quis aute.</div>
+        <div class="item">Excepteur consequat eu duis exercitation mollit commodo nulla tempor sit ullamco mollit.</div>
    </div>
 </body>
 </html>
