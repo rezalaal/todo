@@ -3,6 +3,7 @@
 ## Lessons 
 
 -  Lesson 1 : [What is HTML , What is CSS](https://github.com/rezalaal/todo/blob/Lesson-01---14020213/index.htm) ?
+- Lesson 2 : [Class,ID, border-radius, font, h](https://github.com/rezalaal/todo/tree/Lesson-02--14020214)
 
 
 ## Links
