@@ -7,6 +7,7 @@
 
 
 ## Links
+- Telegram channel : [Videos, resources , ...](https://t.me/Towards_becoming_a_web_developer)
 - Roadmap to be Developer : [Roadmap.sh](https://roadmap.sh)
 - Buy Books : [Sky Books](https://skybooks.ir)
 - Developers AI search engines: [[1]](https://www.phind.com/) , [[2]](https://www.perplexity.ai/)
