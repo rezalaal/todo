@@ -18,3 +18,4 @@
 - [Google Fonts](https://fonts.google.com/)
 - [FontAwosome](https://fontawesome.com/icons)
 - ChatGPT [Link1](https://chat.forefront.ai/) , [Link2](https://freegpt.one/) , [Link3](https://chatbot.theb.ai/#/chat)
+- [Learn flexbox with game](https://flexboxfroggy.com)
