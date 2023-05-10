@@ -5,52 +5,38 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>To-Do App</title>
-    <style>
-        * {
-            padding: 0;
-            margin: 0;
-        }
-        body {
-            background-color: #FFE101;           
-        }
-        #items {
-            /* comment */
-            background-color: #0179BE;
-            border: 1px solid #00598c;
-            border-radius: 4px;            
-            --moz-border-radius: 4px;/* for Mozilla firefox */            
-            --webkit-border-radius: 4px;/* for chrome */
-            width: auto;                       
-            margin: 50px 100px 0px 100px;/* margin: top right bottom left */
-            padding: 15px 0;
-        }
-        .item {
-            background-color: #BD003F;
-            margin: 2px 15px; 
-            color: #f56f56;
-            padding: 2px 5px;
-            font-size: 10px;
-        }
-        #selected-item {
-            background-color: blueviolet;
-        }
-        .text-center {
-            text-align: center;
-        }
-        h1 {
-            color:aliceblue;
-        }
-    </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="./styles.css">
 </head>
 <body>
    <div id="items">
-        <h1 class="text-center">To-Do List</h1>
-        <div class="item">Esse irure incididunt magna ex non dolore aute ut.</div>
-        <div class="item">Nulla excepteur amet laboris cillum pariatur in.</div>
-        <div class="item">Est sunt ipsum reprehenderit nostrud laborum magna ad consectetur enim laborum occaecat ullamco excepteur do.</div>
-        <div class="item text-center" id="selected-item">Magna irure ea aute Lorem ad dolore dolore qui commodo occaecat aute amet.</div>
-        <div class="item">Nisi sit elit labore ex incididunt in ea consectetur quis aute.</div>
-        <div class="item">Excepteur consequat eu duis exercitation mollit commodo nulla tempor sit ullamco mollit.</div>
+        <h1 class="text-center">
+            <i class="fa-solid fa-list-check"></i> 
+            To-Do List
+        </h1>
+        <div class="item">
+            <i class="fa-sharp fa-solid fa-circle"></i>
+            Esse irure incididunt magna ex non dolore aute ut.
+        </div>
+        <div class="item">
+            <i class="fa-sharp fa-solid fa-circle"></i>
+            Nulla excepteur amet laboris cillum pariatur in.
+        </div>
+        <div class="item">
+            <i class="fa-sharp fa-solid fa-circle"></i>
+            Est sunt ipsum reprehenderit nostrud laborum magna ad consectetur enim laborum occaecat ullamco excepteur do.
+        </div>
+        <div class="item" id="selected-item">
+            <i class="fa-sharp fa-solid fa-circle"></i>
+            Magna irure ea aute Lorem ad dolore dolore qui commodo occaecat aute amet.
+        </div>
+        <div class="item">
+            <i class="fa-sharp fa-solid fa-circle"></i>Nisi sit elit labore ex incididunt in ea consectetur quis aute.
+        </div>
+        <div class="item">
+            <i class="fa-sharp fa-solid fa-circle"></i>
+            Excepteur consequat eu duis exercitation mollit commodo nulla tempor sit ullamco mollit.
+        </div>
    </div>
 </body>
 </html>
