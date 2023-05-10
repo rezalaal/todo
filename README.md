@@ -4,6 +4,7 @@
 
 -  Lesson 1 : [What is HTML , What is CSS](https://github.com/rezalaal/todo/blob/Lesson-01---14020213/index.htm) ?
 - Lesson 2 : [Class,ID, border-radius, font, h](https://github.com/rezalaal/todo/tree/Lesson-02--14020214)
+- Lesson 3: [google fonts, fontawsome, flex](https://github.com/rezalaal/todo/tree/Lesson-03--14020220)
 
 
 ## Links
@@ -14,4 +15,6 @@
 - Learn online [W3 Schools](https://w3schools.com)
 - Stack Overflow [HTML Questions](https://stackoverflow.com/questions/tagged/html) , [Insights survey #technology](https://survey.stackoverflow.co/2022/#technology)
 - Download visual studio code [VSCode](https://code.visualstudio.com/download)
-
+- [Google Fonts](https://fonts.google.com/)
+- [FontAwosome](https://fontawesome.com/icons)
+- ChatGPT [Link1](https://chat.forefront.ai/) , [Link2](https://freegpt.one/) , [Link3](https://chatbot.theb.ai/#/chat)
