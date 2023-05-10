@@ -24,6 +24,7 @@ body {
     color: #f56f56;
     padding: 2px 10px 2px 5px;
     font-size: 10px;
+    display: flex;
 }
 #selected-item {
     background-color: blueviolet;
@@ -36,4 +37,22 @@ h1 {
 }
 .fa-circle {
     padding-right: 5px;
+}
+.item-circle {
+    justify-content: flex-start;
+}
+.item-title {
+    flex-grow: 4;
+}
+.item-icon-ok {
+    justify-content: flex-end;
+    padding: 0 1px;
+}
+.item-icon-edit {
+    justify-content: flex-end;
+    padding: 0 1px;
+}
+.item-icon-delete {
+    justify-content: flex-end;
+    padding: 0 1px;
 }
