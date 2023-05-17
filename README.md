@@ -5,8 +5,8 @@
 -  Lesson 1 : [What is HTML , What is CSS](https://github.com/rezalaal/todo/blob/Lesson-01---14020213/index.htm) ?
 - Lesson 2 : [Class,ID, border-radius, font, h](https://github.com/rezalaal/todo/tree/Lesson-02--14020214)
 - Lesson 3: [google fonts, fontawsome, flex](https://github.com/rezalaal/todo/tree/Lesson-03--14020220)
-- Lesson 4: [https://github.com/rezalaal/todo/tree/Lesson-04-14020227](https://github.com/rezalaal/todo/tree/Lesson-04-14020227)
-
+- Lesson 4: [Create Modal , Start with JavaScript ](
+https://github.com/rezalaal/todo/tree/Lesson-04-14020227)
 
 ## Links
 - Telegram channel : [Videos, resources , ...](https://t.me/Towards_becoming_a_web_developer)
