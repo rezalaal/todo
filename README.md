@@ -7,6 +7,7 @@
 - Lesson 3: [google fonts, fontawsome, flex](https://github.com/rezalaal/todo/tree/Lesson-03--14020220)
 - Lesson 4: [Create Modal , Start with JavaScript ](
 https://github.com/rezalaal/todo/tree/Lesson-04-14020227)
+- Lesson 5: [Change some styles such as input type=text, box-shadow, added java script link, event listener, open and close modal](https://github.com/rezalaal/todo/blob/Lesson-05-14020228)
 
 ## Links
 - Telegram channel : [Videos, resources , ...](https://t.me/Towards_becoming_a_web_developer)
@@ -20,3 +21,6 @@ https://github.com/rezalaal/todo/tree/Lesson-04-14020227)
 - [FontAwosome](https://fontawesome.com/icons)
 - ChatGPT [Link1](https://chat.forefront.ai/) , [Link2](https://freegpt.one/) , [Link3](https://chatbot.theb.ai/#/chat)
 - [Learn flexbox with game](https://flexboxfroggy.com)
+- [CodePen](codepen.io)
+- [Dribbble](dribbble.com)
+- [Figma](https://figma.com)
