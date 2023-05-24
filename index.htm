@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="./styles.css">
     <script src="./scripts.js" defer></script>
 </head>
-<body>
+<body>    
    <div id="items">
         <h1 class="padding-left font-sigmar">
             <i class="fa-solid fa-list-check"></i> 
@@ -18,7 +18,8 @@
         <span id="toolbox">
             <button id="add">Add new Item</button>
         </span>
-        <div class="item">
+        <div id="taskItems"></div>
+        <!-- <div class="item">
             <div class="item-circle"><i class="fa-sharp fa-solid fa-circle"></i></div>
             <div class="item-title">Esse irure incididunt magna ex non dolore aute ut.</div>
             <div class="item-icon-ok"><i class="fa-solid fa-check"></i></div>
@@ -59,18 +60,20 @@
             <div class="item-icon-ok"><i class="fa-solid fa-check"></i></div>
             <div class="item-icon-edit"><i class="fa-solid fa-pen-to-square"></i></div>
             <div class="item-icon-delete"><i class="fa-solid fa-trash"></i></div>
-        </div>
+        </div> -->
    </div>
 
    <div class="modal">
         <div class="content">
             <div class="title closeModal">X</div>
             <div class="body">
-                <input type="text">
-                <input type="submit" value="Add">
-                <button class="close">Cancel</button>
+                <input id="task" type="text" placeholder="Enter new TODO task">
+                <input id="saveTask" class="btn" type="submit" value="Add">
+                <button class="btn close">Cancel</button>
             </div>
-            <div class="footer"></div>
+            <div class="footer">
+                <span id="errorMessage"></span>
+            </div>
         </div>
    </div>
 </body>
