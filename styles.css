@@ -151,3 +151,11 @@ input[type=text] {
     text-align: center;
     padding: 10px;
 }
+
+.closeModal {
+    cursor: pointer;
+}
+
+.isDone {
+    text-decoration: line-through;
+}
