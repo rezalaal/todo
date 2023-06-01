@@ -9,6 +9,7 @@
 https://github.com/rezalaal/todo/tree/Lesson-04-14020227)
 - Lesson 5: [Change some styles such as input type=text, box-shadow, added java script link, event listener, open and close modal](https://github.com/rezalaal/todo/blob/Lesson-05-14020228)
 - Lesson 6: [Arrays, localStorage, save Tasks on localStorage](https://github.com/rezalaal/todo/tree/Lesson-06-14020303)
+- Lesson 7: [JS functions,change localStorage to object, delete tasks, chek if is done](https://github.com/rezalaal/todo/tree/Lesson-07-14020310)
 
 ## Links
 - Telegram channel : [Videos, resources , ...](https://t.me/Towards_becoming_a_web_developer)
@@ -18,7 +19,7 @@ https://github.com/rezalaal/todo/tree/Lesson-04-14020227)
 - Learn online [W3 Schools](https://w3schools.com)
 - Stack Overflow [HTML Questions](https://stackoverflow.com/questions/tagged/html) , [Insights survey #technology](https://survey.stackoverflow.co/2022/#technology)
 - Download visual studio code [VSCode](https://code.visualstudio.com/download)
-- [Google Fonts](https://fonts.google.com/)
+- [Google Fonts](https://fonts.google.com/) 
 - [FontAwosome](https://fontawesome.com/icons)
 - ChatGPT [Link1](https://chat.forefront.ai/) , [Link2](https://freegpt.one/) , [Link3](https://chatbot.theb.ai/#/chat)
 - [Learn flexbox with game](https://flexboxfroggy.com)
