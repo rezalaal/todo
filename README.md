@@ -1,4 +1,6 @@
-# Web Developer 
+# Towards becoming a Web Developer 
+
+### A project-oriented course in which we will discuss Frontend and ‌Backend topics.You can see the videos of the course on the public channel of this course at [here](https://t.me/Towards_becoming_a_web_developer)
 
 ## Lessons 
 
