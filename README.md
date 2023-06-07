@@ -9,6 +9,8 @@
 https://github.com/rezalaal/todo/tree/Lesson-04-14020227)
 - Lesson 5: [Change some styles such as input type=text, box-shadow, added java script link, event listener, open and close modal](https://github.com/rezalaal/todo/blob/Lesson-05-14020228)
 - Lesson 6: [Arrays, localStorage, save Tasks on localStorage](https://github.com/rezalaal/todo/tree/Lesson-06-14020303)
+- Lesson 7: [Add Task, Delete Task, Edit Task, Clear All Tasks](https://github.com/rezalaal/todo/tree/Lesson-07-14020310)
+- Lesson 8: [Bootstrap, start PHP](https://github.com/rezalaal/todo/tree/Lesson-08-14020317)
 
 ## Links
 - Telegram channel : [Videos, resources , ...](https://t.me/Towards_becoming_a_web_developer)
@@ -26,3 +28,8 @@ https://github.com/rezalaal/todo/tree/Lesson-04-14020227)
 - [Dribbble](https://dribbble.com)
 - [Figma](https://figma.com)
 - [SVG Icons](https://simpleicons.org/)
+- [Bootstrap](https://getbootstrap.com)
+- [Tailwind](https://tailwindcss.com)
+- [PHP](https://php.net)
+- [Xampp](https://www.apachefriends.org/index.html)
+- [Laragon](https://laragon.org)
