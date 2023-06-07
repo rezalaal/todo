@@ -159,3 +159,8 @@ input[type=text] {
 .isDone {
     text-decoration: line-through;
 }
+
+#header-image {
+    height: 30px;
+
+}
