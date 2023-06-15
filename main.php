@@ -3,11 +3,10 @@
 
     <body>
         <?php
-            $cars = ["BMW", "Benz", "TOYOTA"];
+            $numbers = [1,3,5,7,9];
 
-           
-            foreach($cars as $car) {
-                echo $car;
+            foreach($numbers as $number) {
+                echo "<br>".$number**2;
             }
         ?>
     </body>
