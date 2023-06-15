@@ -1,9 +1,9 @@
 <?php
 
-echo "Hello world";
+$name = "Reza";
 
-echo ' My job is IT';
+echo $name;
 
-echo 'my Cat\'s name is miew';
+$Age = 29;
 
-echo "my Dog's name is Doggi";
+echo $Age;
