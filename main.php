@@ -1,9 +1,7 @@
-<?php
+<html>
+    <head></head>
 
-$name = "Reza";
-
-echo $name;
-
-$Age = 29;
-
-echo $Age;
+    <body>
+        <?= "Hello PHP"; ?>
+    </body>
+</html>
