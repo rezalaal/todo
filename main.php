@@ -3,13 +3,15 @@
 
     <body>
         <?php
-            $cars = ["BMW", "Benz", "TOYOTA", 198];
+            $n = (int)"230";
+            echo gettype($n);
 
-            // var_dump($cars);
+            $m = 12.5;
+            echo (int)$m;
 
-            // print_r($cars);
-
-            print($cars[2]);
+            $y = 24;
+            echo (float)$y;
+            echo gettype((float)$y);
         ?>
     </body>
 </html>
