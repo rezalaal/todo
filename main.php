@@ -3,15 +3,17 @@
 
     <body>
         <?php
-            $n = (int)"230";
-            echo gettype($n);
+            $i = 10;
 
-            $m = 12.5;
-            echo (int)$m;
+            $i = $i + 5;
 
-            $y = 24;
-            echo (float)$y;
-            echo gettype((float)$y);
+            $i += 6;
+
+            $i += 1;
+
+            $i++;
+
+            echo $i;
         ?>
     </body>
 </html>
