@@ -3,16 +3,13 @@
 
     <body>
         <?php
-            $isLogin = True;
-            echo gettype($isLogin);
-            echo "<br>";
-            $name = "Ali";
-            echo gettype($name);
-            echo "<br>";
-            $age = 23;
-            echo gettype($age);
+            $cars = ["BMW", "Benz", "TOYOTA", 198];
 
-            var_dump($name);
+            // var_dump($cars);
+
+            // print_r($cars);
+
+            print($cars[2]);
         ?>
     </body>
 </html>
