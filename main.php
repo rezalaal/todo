@@ -3,17 +3,12 @@
 
     <body>
         <?php
-            $i = 10;
+            $cars = ["BMW", "Benz", "TOYOTA"];
 
-            $i = $i + 5;
-
-            $i += 6;
-
-            $i += 1;
-
-            $i++;
-
-            echo $i;
+           
+            foreach($cars as $car) {
+                echo $car;
+            }
         ?>
     </body>
 </html>
