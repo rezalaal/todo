@@ -3,16 +3,16 @@
 
     <body>
         <?php
-            echo PHP_VERSION;
+            $isLogin = True;
+            echo gettype($isLogin);
             echo "<br>";
-            echo PHP_OS;
+            $name = "Ali";
+            echo gettype($name);
             echo "<br>";
-            echo PHP_DATADIR;
-            echo "<br>";
-            echo PHP_URL_PATH;
-            echo "<br>";
-            echo PHP_URL_PORT;
-            
+            $age = 23;
+            echo gettype($age);
+
+            var_dump($name);
         ?>
     </body>
 </html>
