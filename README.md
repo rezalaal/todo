@@ -13,6 +13,8 @@ https://github.com/rezalaal/todo/tree/Lesson-04-14020227)
 - Lesson 6: [Arrays, localStorage, save Tasks on localStorage](https://github.com/rezalaal/todo/tree/Lesson-06-14020303)
 - Lesson 7: [JS functions,change localStorage to object, delete tasks, chek if is done](https://github.com/rezalaal/todo/tree/Lesson-07-14020310)
 - Lesson 8: [Bootstrap, start PHP](https://github.com/rezalaal/todo/tree/Lesson-08-14020317)
+- Lesson 9: [PHP intro](https://github.com/rezalaal/todo/tree/Lesson-09-14020325)
+- Lesson 10: [Guess the number game](https://github.com/rezalaal/todo/tree/Lesson-10-14020329)
 
 
 ## Links
@@ -36,3 +38,5 @@ https://github.com/rezalaal/todo/tree/Lesson-04-14020227)
 - [PHP](https://php.net)
 - [Xampp](https://www.apachefriends.org/index.html)
 - [Laragon](https://laragon.org)
+- [Angry tools](https://angrytools.com/)
+- [animista](https://animista.net/play)
