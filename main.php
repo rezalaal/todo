@@ -1,12 +1,17 @@
 <?php
 
-$name = "Reza";
+$name = "Sima";
 
-$message = match($name) {
-    "Reza" => "Hello Reza",
-    "Ahmad" => "Hi Ahmad",
-    "Hassan" => "Hassan",
-    default => $name
-};
-
-echo $message;
+switch($name) {
+    case "Reza":
+        echo "Hello Reza";
+        break;
+    case "Ahmad":
+        echo "Hi Ahmad";
+        break;
+    case "Hassan":
+        echo "Hassan, HI";
+        break;
+    default:
+        echo "Hi ".$name;
+}
