@@ -1,14 +1,17 @@
 <?php
 
-$name = "Reza";
+$number = 21;
 
+function isEven($number) {
+    $re = $number % 2;
 
-if($name == "Reza") {
-    echo "Hello Reza";
-}else if ($name == "Ahmad") {
-    echo "Hi Ahmad";
-}else if ($name == "Hassan") {
-    echo "Hassan, HI";
-}else{
-    echo $name;
+    if ($re == 0) {
+        return True;
+    }else{
+        return False;
+    }
+}
+
+if(isEven($number)) {
+    echo "This number is Even";
 }
