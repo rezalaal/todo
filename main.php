@@ -1,17 +1,14 @@
 <?php
 
-$name = "Sima";
+$name = "Reza";
 
-switch($name) {
-    case "Reza":
-        echo "Hello Reza";
-        break;
-    case "Ahmad":
-        echo "Hi Ahmad";
-        break;
-    case "Hassan":
-        echo "Hassan, HI";
-        break;
-    default:
-        echo "Hi ".$name;
+
+if($name == "Reza") {
+    echo "Hello Reza";
+}else if ($name == "Ahmad") {
+    echo "Hi Ahmad";
+}else if ($name == "Hassan") {
+    echo "Hassan, HI";
+}else{
+    echo $name;
 }
