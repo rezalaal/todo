@@ -15,6 +15,8 @@ https://github.com/rezalaal/todo/tree/Lesson-04-14020227)
 - Lesson 8: [Bootstrap, start PHP](https://github.com/rezalaal/todo/tree/Lesson-08-14020317)
 - Lesson 9: [PHP intro](https://github.com/rezalaal/todo/tree/Lesson-09-14020325)
 - Lesson 10: [Guess the number game](https://github.com/rezalaal/todo/tree/Lesson-10-14020329)
+- Lesson 11: [CSS mediaQuery, responsive pages](https://github.com/rezalaal/todo/tree/Lesson-11-14020331)
+- Lesson 12: [PHP if,switch, match](https://github.com/rezalaal/todo/tree/Lesson-12-14020331)
 
 
 ## Links
