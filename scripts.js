@@ -1,23 +1,23 @@
-function getQuote() {
-    fetch('http://api.quotable.io/random')
+async function getQuote() {
+    await fetch('http://api.quotable.io/random')
         .then(response => response.json())
         .then(data => showOnContent(data))
         .catch(error => console.error(error));
 }
 
 function showOnContent(data) {
-    document.querySelector('#content').innerHTML = `<p style='color:red;'>` + data.content + '</p><br>' + data.author;
+    document.querySelector('#content').innerHTML = `<p style='color:red;'>` + data.content + '</p>';
+    document.querySelector('#author'),innerHTML = data.author;
+}
+
+function showTest(data) {
+    document.querySelector('#local').innerHTML = data.message;
 }
 
 document.addEventListener('DOMContentLoaded', function () {
-    fetch('/api/index.php', {
-        method: GET,
-        headers: {
-            'Access-Control-Allow-Origin' : '*'
-        } 
-    })
+    fetch('http://localhost:8009')
         .then(response => response.json())
-        .then(data => console.log(data))
+        .then(data => showTest(data))
         .catch(error => console.error(error));
-    // getQuote()
+    getQuote()
 });
