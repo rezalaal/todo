@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+</head>
+<body>
+    <div id="content">
+        <label>Username</label>
+        <input type="text" name="username" placeholder="Username" id="username">
+        <label>Password</label>
+        <input type="password" name="password" placeholder="password" id="password">
+        <button type="button" id="submit" onclick="checkLogin()">Login</button>
+        <span id="message"></span>
+    </div>
+    <script>
+        const user = document.querySelector("#username");
+        const pass = document.querySelector("#password");
+        const message = document.querySelector('#message')
+        function checkLogin()
+        {
+            message.innerHTML = ''
+            const items = {
+                username: user.value,
+                password: pass.value
+            }
+
+            fetch('http://localhost/todo/api/auth.php', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify(items) // "{username:'admin','password':1234}"
+            }) 
+            .then(response => response.json())
+            .then(data => auth(data))
+            .catch(error=> console.log(error))
+        }
+
+        function auth(data) {
+            if (data.status == true) {
+                // later
+            }else{
+                message.innerHTML = data.message
+            }
+        }
+    </script>
+</body>
+</html>
