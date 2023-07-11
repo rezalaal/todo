@@ -1,0 +1,35 @@
+services:
+  frontend:
+    image: nginx
+    restart: always
+    volumes:
+      - ./front:/usr/share/nginx/html
+    working_dir: /usr/share/nginx/html
+    ports: 
+      - 90:80
+    
+  backend:
+    build:
+      context: ./
+      dockerfile: Dockerfile
+    restart: always
+    volumes:
+      - ./back:/var/www/html
+    ports:
+      - 91:8009
+    depends_on:
+      - db
+    working_dir: /var/www/html
+    command: php -S 0.0.0.0:8009 index.php
+
+  db:
+    image: mysql    
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+
+  adminer:
+    image: adminer
+    restart: always    
+    ports:
+      - 92:8080
