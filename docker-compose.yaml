@@ -20,7 +20,7 @@ services:
     depends_on:
       - db
     working_dir: /var/www/html
-    command: php -S 0.0.0.0:8009 index.php
+    command: php -S 0.0.0.0:8009 -t . &
 
   db:
     image: mysql    
