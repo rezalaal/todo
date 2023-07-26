@@ -15,9 +15,29 @@ if($password !== $confirmPassword) {
     exit();
 }
 
-// TODO: check if user exists
+
 
 $pdo = new PDO('sqlite:mydatabase.db');
+
+
+// Construct the INSERT statement
+$sql = "SELECT * FROM users WHERE username = :username";
+
+// Prepare the query
+$stmt = $pdo->prepare($sql);
+
+// Bind the actual values to the named placeholders
+$stmt->bindParam(':username', $username);
+
+// Execute the statement
+$stmt->execute();
+
+$user = $stmt->fetch();
+
+if($user) {
+    header("Location: register-form.php?error=change username. username resolved.");
+    exit();
+}
 
 // Construct the INSERT statement
 $sql = "INSERT INTO users (id, username, password) VALUES (null, :username, :password)";
@@ -27,7 +47,7 @@ $stmt = $pdo->prepare($sql);
 
 // Bind the actual values to the named placeholders
 $stmt->bindParam(':username', $username);
-$stmt->bindParam(':password', $password);
+$stmt->bindParam(':password', password_hash($password, null));
 
 // Execute the statement
 $result = $stmt->execute();

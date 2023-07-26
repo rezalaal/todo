@@ -1,5 +1,4 @@
 <?php
-@session_start();
 
 $username = $_POST['username'];
 $password = $_POST['password'];
@@ -15,14 +14,13 @@ if(empty($username) || empty($password) ) {
 $pdo = new PDO('sqlite:mydatabase.db');
 
 // Construct the INSERT statement
-$sql = "SELECT * FROM users WHERE username = :username AND password = :password";
+$sql = "SELECT * FROM users WHERE username = :username";
 
 // Prepare the query
 $stmt = $pdo->prepare($sql);
 
 // Bind the actual values to the named placeholders
 $stmt->bindParam(':username', $username);
-$stmt->bindParam(':password', $password);
 
 // Execute the statement
 $stmt->execute();
@@ -34,8 +32,16 @@ if($result == false) {
     exit();
 }
 
-// session
 
+$verify = password_verify($password, $result['password']);
+
+if(!$verify) {
+    header("Location: login-form.php?error=Invalid username or password.");
+    exit();
+}
+// session
+@session_start();
 $_SESSION['isLogin'] =  true;
+$_SESSION['user'] = $username;
 
 header("Location: index.php");
